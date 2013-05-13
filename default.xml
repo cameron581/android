@@ -39,9 +39,7 @@
   <project path="build" name="android_build" remote="xy" revision="jb-mr1">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="ukang" name="buildscripts" remote="uk" revision="jellybean" >
-    <copyfile src="build-uk.sh" dest="build-uk.sh" />
-  </project>
+
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="bionic" remote="xy" revision="jellybean2" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" revision="cm-10.1" />
