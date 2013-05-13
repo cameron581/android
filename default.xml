@@ -26,7 +26,7 @@
            fetch="git://github.com/SaberMod/" />
            
   <remote  name="tm"
-           fetch="git://github.com/TheMuppets/"
+           fetch="git://github.com/TheMuppets/" />
            
   <remote  name="uk"
            fetch="git://github.com/UltimatumKang/" />
