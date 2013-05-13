@@ -39,8 +39,8 @@
   <project path="build" name="android_build" remote="xy" revision="jb-mr1">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="xylon" name="buildscripts" remote="xy" revision="jellybean" >
-    <copyfile src="build-xy.sh" dest="build-xy.sh" />
+  <project path="ukang" name="buildscripts" remote="uk" revision="jellybean" >
+    <copyfile src="build-uk.sh" dest="build-uk.sh" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="bionic" remote="xy" revision="jellybean2" />
@@ -65,11 +65,6 @@
   <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="xy" revision="cm-10.1" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="xy" revision="jellybean" groups="device" />
   <project path="device/sample" name="device_sample" remote="xy" revision="jellybean" groups="device" />
-  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="xy" revision="jb-mr1" groups="device" />
-  <project path="device/samsung/d2att" name="device_samsung_d2att" remote="aokp" revision="jb-mr1" groups="device" />
-  <project path="device/samsung/d2tmo" name="device_samsung_d2tmo" remote="aokp" revision="jb-mr1" groups="device" />
-  <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="xy" revision="jellybean" groups="device" />
-  <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="xy" revision="jb2" groups="device" />
   <project path="device/samsung/p4wifi" name="android_device_samsung_p4wifi" remote="xy" revision="jellybean" groups="device" />
   <project path="device/samsung/p4-common" name="android_device_samsung_p4-common" remote="xy" revision="jellybean" groups="device" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="xy" revision="jellybean" groups="device" />
@@ -95,8 +90,6 @@
   <project path="device/samsung/t0ltetmo" name="android_device_samsung_t0ltetmo" remote="xy" revision="jb-mr1" />
   <project path="device/samsung/l900" name="android_device_samsung_l900" remote="xy" revision="cm-10.1" />
   <project path="device/samsung/i605" name="android_device_samsung_i605" remote="xy" revision="cm-10.1" />
-  <project path="device/htc/leo" name="android_device_htc_leo" remote="xy" revision="cm-10.1" />
-  <project path="device/htc/qsd8k-common" name="device_htc_qsd8k-common" remote="xy" revision="jellybean" />
   <project path="device/asus/tf101" name="android_device_asus_tf101" remote="xy" revision="jellybean-4.2" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -316,21 +309,18 @@
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="xy" revision="jelly-kang" />
   <project path="kernel/lge/mako" name="mako" remote="xy" revision="jellybean" />
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="xy" revision="cm-10.1" />
-  <project path="kernel/samsung/d2" name="kernel_samsung_d2" remote="aokp" revision="jb-mr1" />
   <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" remote="cm" revision="cm-10.1" />
   <project path="libcore" name="libcore" remote="xy" revision="jellybean" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
-  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="cm" revision="cm-10.1" />
-  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="xy" revision="jellybean" />
+  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="xy" revision="jellybean" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="xy" revision="cm-10.1" />
   <project path="packages/apps/Camera" name="packages_apps_Camera" remote="slim" revision="jb4.2" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/CMFileManager" name="packages_apps_CMFileManager" remote="xy" revision="cm-10.1" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="xy" revision="jellybean" />
   <project path="packages/apps/DashClock" name="packages_apps_DashClock" remote="xy" revision="jb4.2" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="xy" revision="jellybean" />
@@ -344,7 +334,6 @@
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Mms" name="packages_apps_Mms" remote="slim" revision="jb4.2" />
-  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="xy" revision="jellybean" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/PermissionsManager" name="packages_apps_PermissionsManager" remote="aokp" revision="jb-mr1" />
@@ -359,7 +348,6 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="xy" revision="jellybean" />
   <project path="packages/apps/Torch" name="packages_apps_Torch" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
