@@ -244,7 +244,7 @@
   <project path="external/zlib" name="android_external_zlib" remote="slim" revision="jb4.2" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="frameworks_av" remote="xy" revision="jb-mr1" />
-  <project path="frameworks/base" name="frameworks_base" remote="xy" revision="jellybean" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="uk" revision="jellybean" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
@@ -327,7 +327,7 @@
   <project path="packages/apps/Provision" name="android_packages_apps_Provision" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-10.1" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="xy" revision="jellybean" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="uk" revision="jellybean" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
@@ -336,7 +336,7 @@
   <project path="packages/apps/Torch" name="packages_apps_Torch" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
-  <project path="packages/apps/XYSettings" name="packages_apps_XYSettings" remote="xy" revision="jellybean" />>
+  <project path="packages/apps/uTool" name="android_packages_apps_uTool" remote="uk" revision="jellybean" />>
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="xy" revision="jellybean" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
