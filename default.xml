@@ -39,7 +39,7 @@
            remote="aosp"
            sync-j="" />
 
-  <project path="build" name="android_build" remote="xy" revision="jb-mr1">
+  <project path="build" name="android_build" remote="uk" revision="jb2">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -400,7 +400,7 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
-  <project path="vendor/ukg" name="vendor_ukg" remote="uk" revision="jellybean" />
+  <project path="vendor/ukg" name="android_vendor_ukg" remote="uk" revision="jellybean" />
   <project path="vendor/audience" name="proprietary_vendor_audience" remote="tm" revision="cm-10.1" />
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="tm" revision="cm-10.1" />
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="cr" revision="jb2" />
