@@ -29,7 +29,7 @@
            fetch="git://github.com/TheMuppets/" />
            
   <remote  name="uk"
-           fetch="git://github.com/UltimatumKang/" />
+           fetch="https://github.com/UltimatumKang/" />
            
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/"
