@@ -39,7 +39,7 @@
            remote="aosp"
            sync-j="" />
 
-  <project path="build" name="android_build" remote="uk" revision="jb2">
+  <project path="build" name="android_build" remote="uk" revision="jellybean">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
