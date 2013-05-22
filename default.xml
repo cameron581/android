@@ -59,6 +59,8 @@
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
+  <project path="device/htc/m7" name="android_device_htc_m7" remote="uk" revision="cm-10.1" />
+  <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="uk" revision="cm-10.1" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="uk" revision="jellybean" groups="device" />
   <project path="device/sample" name="device_sample" remote="xy" revision="jellybean" groups="device" />
   <project path="device/samsung/celox-common" name="android_device_samsung_celox-common" remote="uk" revision="jellybean" groups="device" />
@@ -428,6 +430,8 @@
   <project path="vendor/ukg" name="android_vendor_ukg" remote="uk" revision="jellybean" />
   <project path="vendor/asus" name="vendor_asus" remote="xy" revision="jellybean" />
   <project path="vendor/lge" name="android_vendor_lge" remote="xy" revision="jb-ras-mr1.1" />
+  <project path="vendor/htc/m7" name="htc-msm8960/android_vendor_htc_m7" remote="pub" revision="cm-10.1" />
+  <project path="vendor/htc/m7-common" name="htc-msm8960/android_vendor_htc_m7-common" remote="pub" revision="cm-10.1" />
   <project path="vendor/samsung" name="vendor_samsung" remote="xy" revision="jellybean" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
