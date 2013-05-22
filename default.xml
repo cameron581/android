@@ -430,8 +430,7 @@
   <project path="vendor/ukg" name="android_vendor_ukg" remote="uk" revision="jellybean" />
   <project path="vendor/asus" name="vendor_asus" remote="xy" revision="jellybean" />
   <project path="vendor/lge" name="android_vendor_lge" remote="xy" revision="jb-ras-mr1.1" />
-  <project path="vendor/htc/m7" name="htc-msm8960/android_vendor_htc_m7" remote="gh" revision="cm-10.1" />
-  <project path="vendor/htc/m7-common" name="htc-msm8960/android_vendor_htc_m7-common" remote="gh" revision="cm-10.1" />
+  <project path="vendor/htc" name="htc-msm8960/proprietary_vendor_htc" remote="gh" revision="cm-10.1" />
   <project path="vendor/samsung" name="vendor_samsung" remote="xy" revision="jellybean" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
