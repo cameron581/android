@@ -5,14 +5,19 @@
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
 
-  <remote  name="xy"
-           fetch="https://github.com/XYAOSP/" />
+  <remote  name="aokp"
+           fetch="git://github.com/AOKP/"
+           review="gerrit.aokp.co" />
+           
+  <remote  name="baked"
+           fetch="git://github.com/TeamBAKED" />
+           
+  <remote  name="cm"
+           fetch="git://github.com/CyanogenMod/"
+           review="review.cyanogenmod.org" />
 
   <remote  name="cr"
            fetch="git://github.com/CarbonDev/" />
-
-  <remote  name="aokp"
-           fetch="git://github.com/AOKP/" />
  
   <remote  name="gh"
            fetch="git://github.com/" />
@@ -29,9 +34,8 @@
   <remote  name="uk"
            fetch="https://github.com/UltimatumKang/" />
            
-  <remote  name="cm"
-           fetch="git://github.com/CyanogenMod/"
-           review="review.cyanogenmod.com" />
+  <remote  name="xy"
+           fetch="https://github.com/XYAOSP/" />
 
   <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
@@ -434,9 +438,9 @@
   <project path="vendor/lge" name="android_vendor_lge" remote="xy" revision="jb-ras-mr1.1" />
   <project path="vendor/htc" name="htc-msm8960/proprietary_vendor_htc" remote="gh" revision="cm-10.1" />
   <project path="vendor/samsung" name="vendor_samsung" remote="xy" revision="jellybean" />
-  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.1" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="vendor_tmobile_apps_ThemeChooser" remote="baked" revision="jb-4.2"/>
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="baked" revision="jb-4.2" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="baked" revision="jb-4.2" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
 
   <project path="android" name="android" remote="uk" revision="jb4.2" />
