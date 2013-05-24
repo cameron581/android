@@ -441,7 +441,7 @@
   <project path="vendor/tmobile/apps/ThemeChooser" name="vendor_tmobile_apps_ThemeChooser" remote="baked" revision="jb-4.2"/>
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="baked" revision="jb-4.2" />
   <project path="vendor/tmobile/providers/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="baked" revision="jb-4.2" />
-  <project path="vendor/tmobile/products/themes" name="vendor_tmobile_products_themes" remote="baked" revision="jb4.2" />
+  <project path="vendor/tmobile/products/themes" name="vendor_tmobile_products_themes" remote="baked" revision="jb-4.2" />
 
   <project path="android" name="android" remote="uk" revision="jb4.2" />
 </manifest>
