@@ -333,7 +333,7 @@
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="xy" revision="jellybean" />
-  <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="xy" revision="cm-10.1" />
+  <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="slim" revision="jb4.2" />
   <project path="packages/apps/Camera" name="packages_apps_Camera" remote="slim" revision="jb4.2" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
@@ -341,7 +341,7 @@
   <project path="packages/apps/DashClock" name="packages_apps_DashClock" remote="xy" revision="jb4.2" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="xy" revision="jellybean" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="xy" revision="jellybean" />
-  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/Email" name="packages_apps_Email" remote="slim" revision="jb4.2" />
   <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="uk" revision="jellybean" />
