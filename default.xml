@@ -50,7 +50,7 @@
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" revision="cm-10.1" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-10.1" />
   <project path="dalvik" name="android_dalvik" remote="slim" revision="jb4.2" />
-  <project path="development" name="android_development" remote="cm" revision="cm-10.1" />
+  <project path="development" name="android_development" remote="uk" revision="jellybean" />
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="uk" revision="jellybean" groups="device" />
   <project path="device/asus/tf101" name="android_device_asus_tf101" remote="uk" revision="jellybean" />
   <project path="device/asus/tilapia" name="android_device_asus_tilapia" remote="uk" revision="jellybean" groups="device" />
