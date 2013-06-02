@@ -63,8 +63,8 @@
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/htc/m7" name="android_device_htc_m7" remote="uk" revision="jellybean" />
-  <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="uk" revision="jellybean" />
+  <project path="device/htc/m7ul" name="android_device_htc_m7ul" remote="uk" revision="cm-10.1" />
+  <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="uk" revision="cm-10.1" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="uk" revision="jellybean" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="uk" revision="jellybean" groups="device" />
   <project path="device/sample" name="device_sample" remote="xy" revision="jellybean" groups="device" />
