@@ -66,7 +66,6 @@
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/hp/tenderloin" name="android_device_hp_tenderloin" remote="uk" revision="jellybean" />
   <project path="device/htc/m7ul" name="android_device_htc_m7ul" remote="uk" revision="cm-10.1" />
   <project path="device/htc/m7ul" name="android_device_htc_dlx" remote="uk" revision="jellybean" />
   <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="uk" revision="cm-10.1" />
@@ -89,10 +88,12 @@
   <project path="device/samsung/p4wifi" name="android_device_samsung_p4wifi" remote="uk" revision="jellybean" groups="device" />
   <project path="device/samsung/p4-common" name="android_device_samsung_p4-common" remote="uk" revision="jellybean" groups="device" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="uk" revision="jellybean" groups="device" />
-  <project path="device/samsung/msm8660-common" name="android_device_samsung_msm8660-common" remote="uk" revision="jellybean" groups="device" />
+  <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="aokp" revision="jb-mr1" groups="device" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="uk" revision="jellybean" groups="device" />
   <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" remote="uk" revision="jellybean" groups="device" />
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="uk" revision="jellybean" groups="device" />
+  <project path="device/samsung/quincyatt" name="android_device_samsung_quincyatt" remote="uk" revision="jellybean" groups="device" />
+  <project path="device/samsung/quincy-common" name="android_device_samsung_quincy-common" remote="uk" revision="jellybean" groups="device" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="uk" revision="jellybean" groups="device" />
   <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="uk" revision="jellybean" groups="device" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="uk" revision="jellybean" groups="device" />
@@ -304,7 +305,7 @@
   <project path="hardware/invensense" name="android_hardware_invensense" remote="cm" revision="cm-10.1" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="xy" revision="jellybean" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="cm-10.1" />
-  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="xy" revision="cm-10.1" />
+  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="uk" revision="cm-10.1" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="uk" revision="cm-10.1" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
@@ -329,7 +330,7 @@
   <project path="kernel/lge/mako" name="rohanmathur/mako" remote="gh" revision="jb-mr1" />
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="xy" revision="cm-10.1" />
   <project path="kernel/samsung/smdk4210" name="Evervolv/android_kernel_samsung_smdk4210" remote="gh" revision="jellybean" />
-  <project path="kernel/samsung/msm8660-common" name="carvsdriver/android_kernel_samsung_msm8660-common" remote="gh" revision="marla" />
+  <project path="kernel/samsung/msm8660-common" name="android_kernel_samsung_msm8660-common" remote="cm" revision="cm-10.1" />
   <project path="kernel/htc/dlx-3.4" name="CM10DNA/android_kernel_htc_dlx" revision="cm-10.1-chad" remote="gh" />
   <project path="kernel/htc/m7" name="htc-msm8960/android_kernel_htc_m7" remote="gh" revision="cm-10.1" />
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-10.1" />
