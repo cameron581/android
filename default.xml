@@ -69,7 +69,7 @@
   <project path="device/htc/evita" name="android_device_htc_evita" remote="uk" revision="cm-10.1-dev-ukg" />
   <project path="device/htc/s4-common" name="device_htc_s4-common" remote="uk" revision="cm-10.1-dev-ukg" />
   <project path="device/htc/m7ul" name="android_device_htc_m7ul" remote="uk" revision="cm-10.1" />
-  <project path="device/htc/m7ul" name="android_device_htc_dlx" remote="uk" revision="jellybean" />
+  <project path="device/htc/dlx" name="android_device_htc_dlx" remote="uk" revision="jellybean" />
   <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="uk" revision="cm-10.1" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="uk" revision="jellybean" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="uk" revision="jellybean" groups="device" />
@@ -333,7 +333,7 @@
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="uk" revision="cm-10.1" />
   <project path="kernel/samsung/smdk4210" name="Evervolv/android_kernel_samsung_smdk4210" remote="gh" revision="jellybean" />
   <project path="kernel/samsung/msm8660-common" name="android_kernel_samsung_msm8660-common" remote="cm" revision="cm-10.1" />
-  <project path="kernel/htc/dlx-3.4" name="CM10DNA/android_kernel_htc_dlx" revision="cm-10.1-chad" remote="gh" />
+  <project path="kernel/htc/dlx-3.4" name="CM10DNA/android_kernel_htc_dlx" remote="gh" revision="cm-10.1-chad" />
   <project path="kernel/htc/msm8960-3.4" name="android_kernel_htc_msm8960-3.4" remote="uk" revision="cm-10.1-dev" />
   <project path="kernel/htc/m7" name="htc-msm8960/android_kernel_htc_m7" remote="gh" revision="cm-10.1" />
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-10.1" />
