@@ -104,6 +104,7 @@
   <project path="device/samsung/jfltecan" name="android_device_samsung_jfltecan" remote="uk" revision="jellybean" />
   <project path="device/samsung/jfltespr" name="android_device_samsung_jfltespr" remote="uk" revision="jellybean" />
   <project path="device/samsung/jfltetmo" name="android_device_samsung_jfltetmo" remote="uk" revision="jellybean" />
+  <project path="device/samsung/jfltexx" name="android_device_samsung_jfltexx" remote="uk" revision="cm-10.1" />
   <project path="device/samsung/n7100" name="android_device_samsung_n7100" remote="uk" revision="jellybean" />
   <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="uk" revision="jellybean" />
   <project path="device/samsung/smdk4412-qcom-common" name="android_device_samsung_smdk4412-qcom-common" remote="cm" revision="cm-10.1" />
