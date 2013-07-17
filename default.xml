@@ -86,6 +86,7 @@
   <project path="device/samsung/galaxys2-common" name="android_device_samsung_galaxys2-common" remote="uk" revision="jellybean" />
   <project path="device/samsung/hercules" name="android_device_samsung_hercules" remote="uk" revision="jellybean" groups="device" />
   <project path="device/samsung/i9300" name="android_device_samsung_i9300" remote="uk" revision="jellybean" /> 
+  <project path="device/samsung/i9305" name="android_device_samsung_i9305" remote="uk" revision="jellybean" /> 
   <project path="device/samsung/i777" name="android_device_samsung_i777" remote="uk" revision="jellybean" groups="device" />
   <project path="device/samsung/p4wifi" name="android_device_samsung_p4wifi" remote="uk" revision="jellybean" groups="device" />
   <project path="device/samsung/p4-common" name="android_device_samsung_p4-common" remote="uk" revision="jellybean" groups="device" />
