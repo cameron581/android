@@ -356,7 +356,6 @@
   <project path="libcore" name="android_libcore" remote="uk" revision="jellybean" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
-  <project path="packages/apps/Babel" name="android_packages_apps_Babel" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="aokp" revision="jb-mr1" />
@@ -397,6 +396,7 @@
   <project path="packages/apps/Torch" name="packages_apps_Torch" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
+  <project path="packages/apps/VoicePlus" name="android_packages_apps_VoicePlus" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/uTool" name="android_packages_apps_uTool" remote="uk" revision="jellybean" />
   <project path="packages/apps/UKGPapers" name="android_packages_apps_UKGPapers" remote="uk" revision="jellybean" />
   <project path="packages/experimental" name="platform/packages/experimental" />
