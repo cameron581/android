@@ -43,7 +43,7 @@
   <remote  name="xy"
            fetch="https://github.com/XYAOSP/" />
 
-  <default revision="refs/tags/android-4.2.2_r1"
+  <default revision="refs/tags/android_4.3_r2.1"
            remote="aosp"
            sync-j="" />
 
