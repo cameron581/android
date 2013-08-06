@@ -473,7 +473,7 @@
   <project path="vendor/lge" name="android_vendor_lge" remote="xy" revision="jb-ras-mr1.1" />
   <project path="vendor/htc" name="aznrice2k4/proprietary_vendor_htc" remote="gh" revision="cm-10.1-dev" />
   <project path="vendor/htc/dlx" name="CM10DNA/android_vendor_htc_dlx" remote="gh" revision="cm-10.1-chad" />
-  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" revision="cm-10.1" />
+  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="gh" revision="cm-10.1" />
   <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="gh" revision="cm-10.1" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="vendor_tmobile_apps_ThemeChooser" remote="baked" revision="jb-4.2"/>
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="baked" revision="jb-4.2" />
