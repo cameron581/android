@@ -74,6 +74,7 @@
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="uk" revision="jellybean" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="uk" revision="jellybean" groups="device" />
   <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common"  remote="uk" revision="jb4.2" />
+  <project path="device/motorola/olympus" name="android_device_motorola_olympus"  remote="uk" revision="cm-10.1" />  
   <project path="device/motorola/xt907" name="android_device_motorola_xt907"  remote="uk" revision="cm-10.1" />
   <project path="device/motorola/xt925" name="android_device_motorola_xt925"  remote="uk" revision="cm-10.1" />
   <project path="device/motorola/xt926" name="android_device_motorola_xt926"  remote="uk" revision="cm-10.1" />
@@ -354,6 +355,7 @@
   <project path="kernel/htc/msm8960-3.4" name="android_kernel_htc_msm8960-3.4" remote="uk" revision="cm-10.1-linaro" />
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="cm" revision="cm-10.1" />
   <project path="kernel/motorola/msm8960-common" name="BytecodeMe/android_kernel_motorola_msm8960-common" remote="gh" revision="byte" />
+  <project path="kernel/motorola/olympus" name="android_kernel_motorola_olympus" remote="uk" revision="cm-10.1" />
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" remote="cm" revision="cm-10.1" />
   <project path="libcore" name="android_libcore" remote="uk" revision="jellybean" />
