@@ -12,9 +12,6 @@
   <remote  name="baked"
            fetch="git://github.com/TeamBAKED" />
            
-  <remote  name="cfx"
-           fetch="https://bitbucket.org/codefirex/" />
-           
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/"
            review="review.cyanogenmod.org" />
