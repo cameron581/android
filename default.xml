@@ -347,6 +347,7 @@
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="kernel/asus/grouper" name="franciscofranco/Grouper-3.1.10" remote="gh" revision="android-tegra3-grouper-3.1-jb-mr1" />
   <project path="kernel/lge/mako" name="rohanmathur/mako" remote="gh" revision="jb-mr1" />
+  <project path="kernel/samsung/tuna" name="kernel_tuna_4.2" remote="uk" revision="milestone" />
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="uk" revision="cm-10.1" />
   <project path="kernel/samsung/smdk4210" name="Evervolv/android_kernel_samsung_smdk4210" remote="gh" revision="jellybean" />
   <project path="kernel/samsung/manta" name="android_kernel_samsung_manta" remote="uk" revision="cm-10.1" />
