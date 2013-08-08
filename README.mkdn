@@ -9,7 +9,7 @@ Get Repo
 Syncing the XY Source
 ---------------------------------------
 
-    mkdir ~/aosp
-    cd ~/aosp
+    mkdir ~/xylon
+    cd ~/xylon
     repo init -u https://github.com/UltimatumKang/android -b jb4.2
     repo sync -j 4 | 8 | 16 | 24 | 32
