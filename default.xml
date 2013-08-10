@@ -355,7 +355,7 @@
   <project path="kernel/htc/dlx-3.4" name="CM10DNA/android_kernel_htc_dlx" remote="gh" revision="cm-10.1-chad" />
   <project path="kernel/htc/msm8960-3.4" name="android_kernel_htc_msm8960-3.4" remote="uk" revision="cm-10.1-linaro" />
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="cm" revision="cm-10.1" />
-  <project path="kernel/motorola/msm8960-common" name="BytecodeMe/android_kernel_motorola_msm8960-common" remote="gh" revision="byte" />
+  <project path="kernel/motorola/msm8960-common" name="android_kernel_motorola_msm8960-common" remote="cm" revision="cm-10.1" />
   <project path="kernel/motorola/olympus" name="android_kernel_motorola_olympus" remote="uk" revision="cm-10.1" />
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" remote="cm" revision="cm-10.1" />
