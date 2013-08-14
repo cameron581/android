@@ -45,7 +45,7 @@
 
   <default revision="refs/tags/android-4.3_r2.1"
            remote="aosp"
-           sync-j="" />
+           sync-j="4" />
 
   <project path="build" name="android_build" remote="uk" revision="jb4.3">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -169,7 +169,7 @@
   <project path="external/fuse" name="android_external_fuse" remote="cm" revision="cm-10.2" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" />
-  <project path="external/genext2fs" name="android_external_genext2fs" remote="slim" revision="jb4.2" />
+  <project path="external/genext2fs" name="android_external_genext2fs" remote="slim" revision="jb4.3" />
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
   <project path="external/grub" name="platform/external/grub" />
@@ -284,7 +284,7 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" />
   <project path="external/tremolo" name="platform/external/tremolo" />
-  <project path="external/v8" name="android_external_v8" remote="cm" revision="cm-10.1" />
+  <project path="external/v8" name="android_external_v8" remote="cm" revision="cm-10.2" />
   <project path="external/valgrind" name="platform/external/valgrind" />
   <project path="external/webkit" name="external_webkit" remote="uk" revision="jellybean" />
   <project path="external/webp" name="platform/external/webp" />
@@ -474,16 +474,16 @@
   <project path="system/netd" name="android_system_netd" remote="slim" revision="jb4.3" />
   <project path="system/security" name="system_security" remote="xy" revision="jellybean" />
   <project path="system/vold" name="android_system_vold" remote="uk" revision="jb4.2" />
-  <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
-  <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
-  <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.3_r2.1" /> 
+  <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
+  <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
+  <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" /> 
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
-  <project path="tools/emulator" name="platform/tools/emulator" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.3_r2.1" />  
-  <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
-  <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
-  <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
-  <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.3_r2.1" /> 
+  <project path="tools/emulator" name="platform/tools/emulator" groups="notdefault,tools" />  
+  <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="notdefault,tools" />
+  <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
+  <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
+  <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" /> 
 
   <project path="vendor/ukg" name="android_vendor_ukg" remote="uk" revision="jellybean" /> 
   <project path="vendor/asus" name="vendor_asus" remote="xy" revision="jellybean" />
