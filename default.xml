@@ -69,6 +69,7 @@
   <project path="device/htc/evita" name="android_device_htc_evita" remote="uk" revision="cm-10.1-dev-ukg" />
   <project path="device/htc/s4-common" name="device_htc_s4-common" remote="uk" revision="cm-10.1-dev" />
   <project path="device/htc/m7ul" name="android_device_htc_m7ul" remote="uk" revision="jellybean" />
+  <project path="device/htc/m7spr" name="android_device_htc_m7spr" remote="uk" revision="cm-10.1" />  
   <project path="device/htc/dlx" name="android_device_htc_dlx" remote="uk" revision="jellybean" />
   <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="uk" revision="jellybean" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="uk" revision="jellybean" />
