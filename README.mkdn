@@ -11,6 +11,6 @@ Syncing the XY Source
 
     mkdir ~/aosp
     cd ~/aosp
-    repo init -u https://github.com/cameron581/android -b patches -1
+    repo init -u https://github.com/cameron581/android -b patch-1
 
     repo sync -j 4 | 8 | 16 | 24 | 32
